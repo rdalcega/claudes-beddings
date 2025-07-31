@@ -1,0 +1,13 @@
+* Music Promotion Strategy for tiny little baby man
+
+** Overview
+This is a fake .org file for testing unsupported format detection.
+In reality, this would be an Org-mode document that requires special libraries to read.
+
+** Goals
+- Test unsupported format detection
+- Ensure proper error handling
+- Validate reporting functionality
+
+** Note
+The embeddings system should detect this file but not attempt to process it.

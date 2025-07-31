@@ -1,0 +1,36 @@
+artist:
+  name: "tiny little baby man"
+  genre: "Experimental"
+  description: "An innovative artist exploring the boundaries of sound and music"
+
+marketing_strategy:
+  goals:
+    - "Build awareness for experimental music"
+    - "Create viral content around unique sound"
+    - "Engage with indie music community"
+  
+  channels:
+    social_media:
+      - platform: "Instagram"
+        content_type: "Visual storytelling and behind-the-scenes"
+      - platform: "Twitter" 
+        content_type: "Real-time updates and fan engagement"
+    
+    streaming:
+      - "Spotify playlists targeting experimental music lovers"
+      - "Bandcamp for direct fan support"
+
+promotional_messages:
+  taglines:
+    - "Experience sound like never before"
+    - "The birth of experimental music"
+    - "Tiny sounds, big impact"
+  
+  descriptions:
+    short: "Groundbreaking experimental music from tiny little baby man"
+    long: "Dive into the innovative soundscapes and unique musical journey of tiny little baby man, an artist pushing the boundaries of experimental music and sound design"
+
+metadata:
+  created: "2024-01-01"
+  version: "1.0"
+  tags: ["music", "experimental", "promotion", "test"]

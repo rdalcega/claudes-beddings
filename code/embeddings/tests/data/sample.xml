@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<music_promotion>
+    <artist>
+        <name>tiny little baby man</name>
+        <genre>Experimental</genre>
+        <description>An innovative artist pushing the boundaries of sound and music</description>
+    </artist>
+    <marketing>
+        <campaign name="Birth Announcement">
+            <message>Introducing the experimental sounds of tiny little baby man</message>
+            <target_audience>Indie music enthusiasts</target_audience>
+        </campaign>
+        <social_media>
+            <platform name="Instagram">
+                <content>Visual storytelling through music and art</content>
+            </platform>
+            <platform name="Twitter">
+                <content>Real-time updates and engagement with fans</content>
+            </platform>
+        </social_media>
+    </marketing>
+    <metadata>
+        <created>2024-01-01</created>
+        <version>1.0</version>
+    </metadata>
+</music_promotion>

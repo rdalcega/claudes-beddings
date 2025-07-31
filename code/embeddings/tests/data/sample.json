@@ -1,0 +1,17 @@
+{
+  "title": "Sample Music Promotion Document",
+  "description": "This is a test JSON file for embeddings ingestion",
+  "content": {
+    "marketing_strategy": "Focus on social media engagement and viral content creation",
+    "target_audience": "Indie music lovers and experimental sound enthusiasts",
+    "promotional_messages": [
+      "Discover the unique sound of tiny little baby man",
+      "Experience experimental music like never before"
+    ]
+  },
+  "metadata": {
+    "author": "Test User",
+    "created": "2024-01-01",
+    "tags": ["music", "promotion", "test"]
+  }
+}

@@ -1,0 +1,3 @@
+This is a fake .odt file for testing unsupported format detection.
+In reality, this would be an OpenDocument Text file that requires special libraries to read.
+The embeddings system should detect this file but not attempt to process it.

@@ -1,0 +1,3 @@
+This is a fake .doc file for testing unsupported format detection.
+In reality, this would be a Microsoft Word document that requires special libraries to read.
+The embeddings system should detect this file but not attempt to process it.

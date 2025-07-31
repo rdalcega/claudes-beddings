@@ -1,0 +1,6 @@
+Campaign_ID	Campaign_Name	Start_Date	End_Date	Budget	Target_Audience	Primary_Message	Status
+CAMP001	Birth_Announcement	2024-01-01	2024-01-15	5000	Indie_Music_Fans	Introducing experimental music artist tiny little baby man	Active
+CAMP002	Sound_Preview	2024-01-10	2024-01-25	3000	Experimental_Music_Lovers	Experience unique soundscapes and innovative compositions	Planning
+CAMP003	Social_Media_Blitz	2024-01-15	2024-02-01	7500	Art_Enthusiasts	Discover the intersection of art and experimental music	Scheduled
+CAMP004	Streaming_Launch	2024-02-01	2024-02-14	10000	Music_Streamers	New music available on all major streaming platforms	Draft
+CAMP005	Community_Engagement	2024-02-10	2024-03-01	2500	Online_Communities	Join the conversation about experimental music and sound design	Draft
