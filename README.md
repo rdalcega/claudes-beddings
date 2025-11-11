@@ -47,6 +47,9 @@ python code/embeddings/search.py "technical docs" --paths docs/
 ```bash
 # Get full text from specific chunks
 python code/embeddings/retrieve.py --source filename.pdf --chunks 10,15,20
+
+# Get continuous text from a section (removes overlaps)
+python code/embeddings/retrieve.py --source filename.pdf --section 10,20
 ```
 
 ## Command Reference
@@ -78,8 +81,11 @@ python code/embeddings/search.py "query" --limit 10
 # Retrieve specific chunks by ID
 python code/embeddings/retrieve.py chunk_id_1 chunk_id_2
 
-# Retrieve chunks from source file
+# Retrieve individual chunks from source file (with overlaps intact)
 python code/embeddings/retrieve.py --source filename.pdf --chunks 5,10,15
+
+# Retrieve a continuous section without overlapping text
+python code/embeddings/retrieve.py --source filename.pdf --section 5,10
 
 # Retrieve all chunks from source
 python code/embeddings/retrieve.py --source filename.pdf
@@ -87,6 +93,10 @@ python code/embeddings/retrieve.py --source filename.pdf
 # Show chunk metadata
 python code/embeddings/retrieve.py --show-metadata chunk_id
 ```
+
+> **Note**: Chunk numbers are **1-indexed** and match the chunk numbers displayed in search results. For example, if search shows "(chunk 76)", use `--chunks 76` to retrieve that exact chunk.
+
+> **Tip**: Use `--section` instead of `--chunks` when you want continuous text without repeated overlap portions between chunks. This is ideal for reading long passages spanning multiple chunks.
 
 ### Ingestion Commands
 ```bash

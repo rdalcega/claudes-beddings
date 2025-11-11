@@ -208,18 +208,12 @@ class DocumentSearcher:
             similarity_score = max(0, (1 - distance) * 100)  # Convert distance to similarity percentage
             
             header = f"[{i}] {source}"
-            if chunk_index > 0:
-                header += f" (chunk {chunk_index + 1})"
+            header += f" (chunk {chunk_index + 1})"
             header += f" | {category} | {similarity_score:.1f}% match"
-            
-            # Truncate content if too long
-            display_content = content
-            if len(display_content) > 500:
-                display_content = display_content[:500] + "..."
-            
+
             # Create panel with result
             panel = Panel(
-                display_content,
+                content,
                 title=header,
                 title_align="left",
                 border_style="blue" if i == 1 else "dim"
